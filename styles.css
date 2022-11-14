@@ -1,3 +1,13 @@
 .a{
-    color:rgb(52, 78, 195);
+    color:#fd8420;
+}
+.container{
+    background-color: black;
+    color: aliceblue;
+}
+td,th{
+    color: aliceblue;
+}
+.name{
+    font-size: 3pc;
 }
