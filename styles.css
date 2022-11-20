@@ -6,15 +6,15 @@
 	box-sizing: border-box;
 }
 :root {
-	--primary-color: #ff7613;
-	--text-color: #727171;
+	--primary-color: #0c0602;
+	--text-color: #3a3737;
 }
 html {
 	font-size: 10px;
 }
 body {
 	font-family: Inter, sans-serif;
-	background-color: black;
+	background-color: rgb(255, 251, 251);
 	color: white;
 }
 
@@ -25,7 +25,7 @@ img {
 }
 a {
 	text-decoration: none;
-	color: white;
+	color: rgb(12, 11, 11);
 }
 .description {
 	margin-top: 1rem;
@@ -37,7 +37,7 @@ a {
 	color: var(--primary-color);
 	font-weight: 700;
 	font-size: 2rem;
-	text-transform: uppercase;
+	
 }
 .item_preTitle {
 	font-size: 1.4rem;
@@ -46,10 +46,12 @@ a {
 }
 .item_title {
 	font-size: 1.6rem;
-	color: white;
+	color: rgba(0, 0, 0, 0.938);
 	font-weight: 500;
+	justify-content: space-between;
 
 }
+
 .item_subtitle {
 	font-size: 1.4rem;
 	color: var(--text-color);
@@ -63,7 +65,7 @@ a {
 	margin: 0 auto;
 	display: grid;
 	padding: 5rem;
-	background: #070707;
+	background: #fbf9f9;
 	grid-template-columns: 1fr 1fr;
 	gap: 4rem;
 }
@@ -112,28 +114,19 @@ a {
 	display: flex;
 	gap: 2rem;
 }
-.profile_profileImg {
-	max-width: 250px;
-}
-.profile_name_firstName {
-	color: white;
-	font-weight: 200;
-	font-size: clamp(2rem, 8vw, 4rem);
-	text-transform: uppercase;
-	display: block;
-	margin-bottom: -0.8rem;
-}
-.profile_name_lastName {
+
+
+.profile_name_firstName{
 	color: var(--primary-color);
-	font-weight: 700;
-	font-size: clamp(2.5rem, 15vw, 7rem);
-	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 50px;
 	display: block;
 }
 .profile_title {
 	font-size: 1.5rem;
 	font-weight: 400;
 	text-transform: uppercase;
+	color: #000000;
 }
 .downloadBtn {
 	display: block;
@@ -156,7 +149,6 @@ a {
 	margin-left: 2rem;
 	line-height: 2;
 }
-
 /* Ref  */
 .ref_item {
 	margin-top: 2rem;
@@ -164,8 +156,8 @@ a {
 .ref_name {
 	font-size: 1.6rem;
 	font-weight: 700;
+	color: #000000;
 }
-
 /* eduction */
 .edu_item {
 	margin-top: 2rem;
@@ -239,7 +231,3 @@ hr {
 		margin: 0 auto;
 	}
 }
-/*img {
-	display: block;
-	margin-left: 800px;
-  }*/
